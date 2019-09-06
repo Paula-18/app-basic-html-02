@@ -25,20 +25,59 @@
     src: url("");
 }*/
 
-/*edita todos los tag nav*/
+/*edita todos los tag nav
 nav{
     font-family: Arial, Helvetica, sans-serif ;
     color: black;
     background-color: red;
 }
 
-/*edita todos los que tengan el identificador*/
+/*edita todos los que tengan el identificador
 #nav-container-02
 {
     background-color: yellow;
 }
 
 /*edita todos la clase*/
+
+:root{
+    --custom-pink: 	#a50b5e;
+    --custom-blue: #8aa2e4; 
+    --custom-purple: #9e75c5;
+}
+
+body{
+    background-color: var(--custom-blue);
+    margin: 0%;
+}
+
 .nav-menu-bar{
-    background-color: violet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--custom-pink);
+    padding-right: 70px;
+    text-align: center;
+}
+
+a:hover
+{
+    color: black;
+    background-color: blueviolet;
+}
+
+.main-container
+{
+    background-color: white;
+    width: 80%;
+    min-height: 400px;
+    margin: 0 auto;
 }
